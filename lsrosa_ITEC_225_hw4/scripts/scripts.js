@@ -26,6 +26,7 @@
         }
         b *=2;
     }
+
     document.getElementById("ans1").value= dec;
   }
 

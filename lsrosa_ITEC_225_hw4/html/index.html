@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- load MUI -->
+    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../scripts/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-
+js.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="manifest" href="../img/site.webmanifest">
+</head>
+
+<body>
+    <div class="content">
+        <div id = encode >
+            <header>Enconder & Binary Calculator</br>
+                <a href="./index.html" class="tablink"  >Encoder</a>
+                <a href="./bin.html" class="tablink" >Binary Calculator</a>
+
+            </header>
+            
+            </div>
+            
+           
+        <form class="mui-form">
+            
+            <h2 class="content">Crypto Encoder</h2>
+            <div class="mui-textfield">
+                <label>Original Text</label>
+            <input id="input" type="text" placeholder="Enter clear text here">
+            </div>
+            <div class="mui-textfield">
+                <label>AES Encryption</label>
+                <textarea id = "AES"  disabled></textarea>
+            </div>
+            <div class="mui-textfield">
+                <label>SHA1Encryption</label>
+            <textarea id = "SHA1" disabled></textarea>
+            </div>
+            <div class="mui-textfield">
+                <label>SHA224 Encryption</label>
+                <textarea id="SHA224" disabled></textarea>
+            </div>
+            <div class="mui-textfield">
+                <label>SHA256 Encryption</label>
+                <textarea id="SHA256" disabled></textarea>
+            </div>
+        </form>
+        <button type="submit" class="mui-btn mui-btn--primary" onclick="enc();">Submit</button>
+        
+        <div class="foot">
+            <p>Leonardo Rosa </br>
+                ITEC 225
+            </p>
+        </div>
+    </div>
+        
+        
+</body>
+</html>

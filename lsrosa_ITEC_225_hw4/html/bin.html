@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../scripts/scripts.js"></script>
+    
+</head>
+
+<body>
+    <div class="content">
+        <div id = bin >
+            <header>Enconder & Binary Calculator</br>
+                <a href="./index.html" class="tablink" onclick="openTab('enconde', this,'rgb(182, 105, 28)' )" id= "defaultOpen">Encoder</a>
+                <a href="./bin.html" class="tablink" onclick="openTab('bin',this,'rgb(182, 105, 28)')">Binary Calculator</a>
+            </header>
+            </div>
+                <form class="mui-form">
+                    
+                    <h2 class="content">Binary Calculator</h2>
+                    <div class="mui-textfield">
+                        <label>Insert Binary or Decimal number Here</label>
+                      <input id="input" type="text" >
+                    </div>
+                    </form>
+                    <div class="mui-textfield">
+                        <label>Answer</label>
+                      <textarea id = "ans1" disabled></textarea>
+                    </div>
+                    
+                <button type="submit" class="mui-btn mui-btn--primary" onclick="b2d();">Bin to Dec</button>
+                <button type="submit" class="mui-btn mui-btn--primary" onclick="flip()">Dec to Bin</button>
+                    
+    </div>
+</body>
+</html>
